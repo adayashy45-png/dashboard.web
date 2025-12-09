@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group_7_Dashboard</title>
+    <!-- Favicon for the browser tab -->
+<link rel="icon" type="image/png" href="Batangas_State_Logo.png">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="bg-blur"></div>
+
+    <!--HEADER -->
+    <header>
+        <h1>Group Seven</h1>
+    </header>
+
+
+
+    <!-- PROFILE SELECTOR -->
+    <section class="selector">
+        <label for="Angelord" class="sel-btn">Angelord Bautista</label>
+        <label for="Rhealyn" class="sel-btn">Rhealyn Hernandez</label>
+        <label for="Shy" class="sel-btn">Shy Adaya</label>
+    </section>
+
+    <!-- RADIO BUTTONS (NO JS) -->
+    <input type="radio" id="Angelord" name="profile" hidden>
+    <input type="radio" id="Rhealyn" name="profile" hidden>
+    <input type="radio" id="Shy" name="profile" hidden>
+
+<!-- PROFILES -->
+<section class="profiles">
+
+    <!-- Person 1 -->
+    <div class="profile" data-profile="Angelord">
+        <img src="bautista.jpg" alt="Angelord Bautista">
+        <h2>Angelord Bautista</h2>
+        <p class="role">Student</p>
+        <p>Bachelor of Science in Information Technology</p>
+        <p>1st Year - 1102</p>
+        <p>Email: angelord@example.com</p>
+        <p>Phone: +63 912 345 6789</p>
+        <p>Interests: Photography, Reading, Traveling</p>
+        <!-- Facebook Link -->
+        <a href="https://web.facebook.com/gell.bautista.5" target="_blank" class="facebook-btn">
+            <i class="fab fa-facebook"></i> Facebook
+        </a>
+    </div>
+
+    <!-- Person 2 -->
+    <div class="profile" data-profile="Rhealyn">
+        <img src="hernandez.jpg" alt="Rhealyn Hernandez">
+        <h2>Rhealyn Hernandez</h2>
+        <p class="role">Student</p>
+        <p>Bachelor of Science in Information Technology</p>
+        <p>1st Year - 1102</p>
+        <p>Email: rhealyn@example.com</p>
+        <p>Phone: +63 912 345 6789</p>
+        <p>Interests: Photography, Reading, Traveling</p>
+        <!-- Facebook Link -->
+        <a href="https://web.facebook.com/dane.fernan" target="_blank" class="facebook-btn">
+            <i class="fab fa-facebook"></i> Facebook
+        </a>
+    </div>
+
+    <!-- Person 3 -->
+    <div class="profile" data-profile="Shy">
+        <img src="shy.jpg" alt="Shy Adaya">
+        <h2>Shy Adaya</h2>
+        <p class="role">Student</p>
+        <p>Bachelor of Science in Information Technology</p>
+        <p>1st Year - 1102</p>
+        <p>Email: shy@example.com</p>
+        <p>Phone: +63 912 345 6789</p>
+        <p>Interests: Art, Music, Gaming</p>
+        <!-- Facebook Link -->
+        <a href="https://web.facebook.com/iiko10" target="_blank" class="facebook-btn">
+            <i class="fab fa-facebook"></i> Facebook
+        </a>
+    </div>
+
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="contact">
+    <h2>Contact Us</h2>
+    <p>If you want to reach us, please use the information below:</p>
+    <ul>
+        <li>Email: Group7example@gmail.com</li>
+        <li>Phone: +63 912 345 6789</li>
+        <li>Address: Lipa City Marawoy Batangas State University, Philippines</li>
+    </ul>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
