@@ -122,7 +122,7 @@ header {
 /* CONTACT SECTION */
 .contact {
     background: rgba(255, 255, 255, 0.1); /* Semi-transparent for blur effect */
-    backdrop-filter: blur(25px); /* Match the background blur style */
+    backdrop-filter: blur(30px); /* Match the background blur style */
     padding: 40px;
     margin: 40px auto;
     border-radius: 15px;
@@ -203,3 +203,4 @@ header {
     background: #f31a1a;
     transform: scale(1.05);
 }
+
