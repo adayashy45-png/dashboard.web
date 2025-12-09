@@ -127,7 +127,7 @@ header {
     margin: 40px auto;
     border-radius: 15px;
     max-width: 700px;
-    color: #fff;
+    color: #160d0d;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
@@ -135,7 +135,7 @@ header {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #1e1e1d;
+    color: #000000;
 }
 
 .contact p {
@@ -192,7 +192,7 @@ header {
     border: none;
     border-radius: 8px;
     background: #db2424;
-    color: #000;
+    color: #efe1e1;
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
@@ -203,4 +203,5 @@ header {
     background: #f31a1a;
     transform: scale(1.05);
 }
+
 
