@@ -1,52 +1,16 @@
-```
- ┌──────────────────────────┐
- │        ⏯  START          │
- │   User Opens Webpage     │
- └─────────────┬────────────┘
-               │
-               ▼
-     ┌──────────────────────┐
-     │       PROCESS        │
-     │ Header: Group Seven  │
-     └──────────┬───────────┘
-                │
-                ▼
-     ┌──────────────────────┐
-     │       PROCESS        │
-     │ Profile Selector     │
-     │ Angelord / Rhealyn / │
-     │ Shy Buttons          │
-     └───────┬─┬─┬──────────┘
-             │ │ │
-   ┌─────────┘ │ └─────────┐
-   ▼           ▼            ▼
-┌────────┐ ┌────────┐ ┌────────┐
-│Decision│ │Decision│ │Decision│
-│Click   │ │Click   │ │Click   │
-│Angelord│ │Rhealyn │ │  Shy   │
-└────┬───┘ └────┬───┘ └────┬───┘
-     │          │          │
-     ▼          ▼          ▼
-┌───────────┐ ┌───────────┐ ┌───────────┐
-│ PROCESS   │ │ PROCESS    │ │ PROCESS   │
-│ Show      │ │ Show       │ │ Show      │
-│ Angelord  │ │ Rhealyn    │ │ Shy       │
-│ Profile   │ │ Profile    │ │ Profile   │
-└────┬──────┘ └────┬───────┘ └────┬──────┘
-     │              │              │
-     └──────────────┴──────────────┘
-                     ▼
-       ┌─────────────────────────┐
-       │         PROCESS         │
-       │     Contact Section     │
-       └───────────┬────────────┘
-                   ▼
-       ┌─────────────────────────┐
-       │         PROCESS         │
-       │ User Sends a Message    │
-       └───────────┬────────────┘
-                   ▼
-         ┌───────────────────┐
-         │       END         │
-         └───────────────────┘
+```mermaid 
+flowchart TD 
+A[User Opens Webpage] --> B[Header: 'Group Seven'] 
+B --> C[Profile Selector Buttons] 
+C -->|Click Angelord| D[Radio Button #Angelord = Checked] 
+C -->|Click Rhealyn| E[Radio Button #Rhealyn = Checked] 
+C -->|Click Shy| F[Radio Button #Shy = Checked] 
+D --> G[Show Angelord Profile] 
+E --> H[Show Rhealyn Profile] 
+F --> I[Show Shy Profile] 
+G --> J[Contact Section] 
+H --> J
+I --> J
+
+J --> K[User Can Send a Message]
 ```
